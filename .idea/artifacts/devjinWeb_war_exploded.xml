@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="devjinWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/devjinWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="devjinWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="devjinWeb" />
+          <element id="jpa-descriptors" facet="devjinWeb.main/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.2" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.2" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.8.2" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.8.2" />
+          <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.2.0" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="Gradle : com.devjin : devjinWeb-1.0-SNAPSHOT.war" />
+    </root>
+  </artifact>
+</component>
